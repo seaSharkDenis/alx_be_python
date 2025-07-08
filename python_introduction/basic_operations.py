@@ -1,6 +1,6 @@
 # variable declaration
-number1 = 23
-number2 = 90
+number1 = 10
+number2 = 5
 
 # Arithmetic operations
 print(f"Addition of {number1} and {number2} is {number1 + number2}")
