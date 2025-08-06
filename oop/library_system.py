@@ -41,7 +41,7 @@ class Library:
         for book in self.books:
             if isinstance(book, EBook):
                 print(
-                    f"Ebook: {book.title} by {book.author}, File Size : {book.file_size}KB"
+                    f"Ebook: {book.title} by {book.author}, File Size: {book.file_size}KB"
                 )
             elif isinstance(book, PrintBook):
                 print(
